@@ -14,9 +14,3 @@ install(FILES
     DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/desktop-directories"
     COMPONENT Runtime
 )
-
-install(FILES
-    lxqt-applications.menu
-    DESTINATION "${LXQT_ETC_XDG_DIR}/menus"
-    COMPONENT Runtime
-)
