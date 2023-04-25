@@ -20,7 +20,7 @@
 		<Include>
 			<And>
 				<Category>Utility</Category>
-			 <!-- Accessibility spec must have either the Utility or Settings
+	<!-- Accessibility spec must have either the Utility or Settings
 			 category, and we display an accessibility submenu already for
 			 the ones that do not have Settings, so don't display accessibility
 			 applications here -->
@@ -130,9 +130,6 @@
 				<Category>System</Category>
 				<Not><Category>Settings</Category></Not>
 				<Not><Category>PackageManager</Category></Not>
-				<Not><Category>X-Leave</Category></Not>
-				<Not><Category>Screensaver</Category></Not>
-				<Not><Filename>lxqt-about.desktop</Filename></Not>
 			</And>
 		</Include>
 	</Menu>	 <!-- End System Tools -->
@@ -151,9 +148,29 @@
 		</Include>
 		</Menu> <!-- End Other -->
 
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Directory>lxqt-preferences.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<Or>
+				<Category>Settings</Category>
+				<Category>PackageManager</Category>
+				<Category>System</Category>
+			</Or>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+
+	</Menu> <!-- End Settings -->
+
 	<Layout>
 		<Merge type="files"/>
 		<Merge type="menus"/>
+		<Separator/>
+		<Menuname>DesktopSettings</Menuname>
 	</Layout>
 
 </Menu> <!-- End Applications -->

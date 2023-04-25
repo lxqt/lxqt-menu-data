@@ -15,7 +15,7 @@ install(FILES
 )
 
 install(FILES
-    lxqt-applications-only.menu
+    appchooser.menu
     DESTINATION "${LXQT_ETC_XDG_DIR}/menus"
     COMPONENT Runtime
 )
