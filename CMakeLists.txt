@@ -15,4 +15,4 @@ find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslate)
 
-add_subdirectory(lxqt-menu-data)
+add_subdirectory(menu)

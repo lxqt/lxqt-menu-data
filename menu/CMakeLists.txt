@@ -7,6 +7,7 @@ lxqt_translate_desktop(DIRECTORY_FILES
     USE_YAML
 )
 add_custom_target(desktop_directories_files ALL DEPENDS ${DIRECTORY_FILES})
+#************************************************
 
 install(FILES
     ${DIRECTORY_FILES}
@@ -15,7 +16,10 @@ install(FILES
 )
 
 install(FILES
-    appchooser.menu
+    lxqt-applications.menu
+    lxqt-applications-compact.menu
+    lxqt-applications-simple.menu
+    lxqt-applications-fm.menu
     DESTINATION "${LXQT_ETC_XDG_DIR}/menus"
     COMPONENT Runtime
 )
