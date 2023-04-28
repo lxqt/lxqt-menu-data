@@ -11,8 +11,8 @@ include(GNUInstallDirs)
 set(LXQTBT_MINIMUM_VERSION "0.12.0")
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
-find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
 
+include(LXQtConfigVars)
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslate)
 
