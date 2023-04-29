@@ -20,6 +20,7 @@ install(FILES
     lxqt-applications-compact.menu
     lxqt-applications-simple.menu
     lxqt-applications-fm.menu
+    lxqt-config.menu
     DESTINATION "${LXQT_ETC_XDG_DIR}/menus"
     COMPONENT Runtime
 )
