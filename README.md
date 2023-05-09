@@ -32,16 +32,14 @@ as usual.
 
 ### Packages
 
+Packages will be available after the next release. For Arch based distros an [Aur Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available.
 
 ### Translations
 
-Some of the categories can be translated in [LXQt Weblate](link), for the others a PR is needed.
+Some of the categories used in both menus and "Configuration Center" can be translated in [LXQt Weblate](https://translate.lxqt-project.org/projects/lxqt-configuration/), for all others a PR is needed at the moment.
 
-#### Menus:
 
 * `lxqt-settings.directory` "LXQt Settings"
 * `lxqt-leave.directory` "Leave"
-
-#### Configuration Center:
 * `lxqt-settings-system.directory` "System Settings"
-* `lxqt-settings-other.directory` "Other Applications"
+* `lxqt-settings-other.directory` "Other Settings"
