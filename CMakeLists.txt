@@ -12,8 +12,37 @@ set(LXQTBT_MINIMUM_VERSION "0.12.0")
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
+# Version
+set(LXQT_MENU_DATA_MAJOR_VERSION 1)
+set(LXQT_MENU_DATA_MINOR_VERSION 3)
+set(LXQT_MENU_DATA_PATCH_VERSION 0)
+set(LXQT_MENU_DATA_VERSION ${LXQT_MENU_DATA_MAJOR_VERSION}.${LXQT_MENU_DATA_MINOR_VERSION}.${LXQT_MENU_DATA_PATCH_VERSION})
+
 include(LXQtConfigVars)
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslate)
+
+include(CMakePackageConfigHelpers)
+
+set(LXQT_MENU_DATA_CMAKE_NAME lxqt-menu-data)
+
+configure_package_config_file(
+    "${PROJECT_SOURCE_DIR}/cmake/${LXQT_MENU_DATA_CMAKE_NAME}-config.cmake.in"
+    "${CMAKE_BINARY_DIR}/${LXQT_MENU_DATA_CMAKE_NAME}-config.cmake"
+    INSTALL_DESTINATION "${CMAKE_INSTALL_DATADIR}/cmake/${LXQT_MENU_DATA_CMAKE_NAME}"
+)
+
+write_basic_package_version_file(
+    "${CMAKE_BINARY_DIR}/${LXQT_MENU_DATA_CMAKE_NAME}-config-version.cmake"
+    VERSION ${LXQT_MENU_DATA_VERSION}
+    COMPATIBILITY AnyNewerVersion
+)
+
+install(FILES
+    "${CMAKE_BINARY_DIR}/${LXQT_MENU_DATA_CMAKE_NAME}-config.cmake"
+    "${CMAKE_BINARY_DIR}/${LXQT_MENU_DATA_CMAKE_NAME}-config-version.cmake"
+    DESTINATION "${CMAKE_INSTALL_DATADIR}/cmake/${LXQT_MENU_DATA_CMAKE_NAME}"
+    COMPONENT Devel
+)
 
 add_subdirectory(menu)
