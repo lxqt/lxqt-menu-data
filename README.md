@@ -43,3 +43,8 @@ Some of the categories used in both menus and "Configuration Center" can be tran
 * `lxqt-leave.directory` "Leave"
 * `lxqt-settings-system.directory` "System Settings"
 * `lxqt-settings-other.directory` "Other Settings"
+
+
+<a href="https://translate.lxqt-project.org/projects/lxqt-configuration/">
+<img src="https://translate.lxqt-project.org/widgets/lxqt-configuration/-/lxqt-settings-category-name-in-menus/multi-auto.svg" alt="Translation status" />
+</a>
