@@ -1,3 +1,4 @@
+
 # lxqt-menu-data
 
 Provides translations for menu categories and the menu files for LXQt and PCmanFm-qt.
@@ -8,13 +9,13 @@ Replacement for and partially based of [lxmenu-data](https://github.com/lxde/lxm
 
 ### Menu Files
 
-* `lxqt-applications.menu`: Default menu file for the "Main Menu plugin" in lxqt-panel and "Applications" in PcManFm-qt.
+* `lxqt-applications.menu`: Default menu file for the "Main Menu" plugin in lxqt-panel and "Applications" in PcManFm-qt.
 
 * `lxqt-applications-fm.menu`:
   * Application chooser menu in PCmanFm-qt (right click menu "Open with → Other applications")
   * Applications menu in PcManFm-qt if installed outside of LXQt.
 
-* `lxqt-applications-simple.menu` and `lxqt-applications-compact.menu`:  Alternative menus for the "Main Menu plugin" in `lxqt-panel`.
+* `lxqt-applications-simple.menu` and `lxqt-applications-compact.menu`:  Alternative menus for the "Main Menu" plugin in `lxqt-panel`.
 
 * `lxqt-config.menu` : Used in "LXQt Configuration Center".
 
@@ -32,7 +33,9 @@ as usual.
 
 ### Packages
 
-Packages will be available after the next release. For Arch based distros an [Aur Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available.
+Packages will be available after the next release.
+
+For Arch based distros an [Aur Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available. Please note that `lxqt-panel-git` and `lxqt-config-git` should be updated first.
 
 ### Translations
 
