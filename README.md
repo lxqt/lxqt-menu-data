@@ -1,20 +1,20 @@
 
 # lxqt-menu-data
 
-Provides translations for menu categories and the menu files for LXQt and PCmanFm-qt.
+Freedesktop.org compliant menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt.
 
-Runtime dependency for [lxqt-panel](https://github.com/lxqt/lxqt-panel), [lxqt-config](https://github.com/lxqt/lxqt-config) and [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt).
+Runtime and build dependency for [lxqt-panel](https://github.com/lxqt/lxqt-panel), [lxqt-config](https://github.com/lxqt/lxqt-config) and [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt).
 
-Replacement for and partially based of [lxmenu-data](https://github.com/lxde/lxmenu-data) (LXDE).
+Replacement for and partially based on [lxmenu-data](https://github.com/lxde/lxmenu-data) (LXDE).
 
 ### Menu Files
 
-* `lxqt-applications.menu`: Default menu file for the "Main Menu" plugin in lxqt-panel and "Applications" in PcManFm-qt.
+* `lxqt-applications.menu`: Default menu file for the "Main Menu" plugin in lxqt-panel and "Applications" in PCmanFM-qt.
 
 * `lxqt-applications-fm.menu`:
-  * Application chooser menu in PCmanFm-qt (right click menu "Open with → Other applications")
-  * Applications menu in PcManFm-qt if installed outside of LXQt.
-
+  * Application chooser menu in PCManFM-Qt (right click menu "Open with → Other applications")
+  * Applications menu in PCManFM-Qt if installed outside of LXQt.
+  
 * `lxqt-applications-simple.menu` and `lxqt-applications-compact.menu`:  Alternative menus for the "Main Menu" plugin in `lxqt-panel`.
 
 * `lxqt-config.menu` : Used in "LXQt Configuration Center".
