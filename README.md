@@ -35,7 +35,7 @@ as usual.
 
 Packages will be available after the next release.
 
-For Arch based distros an [Aur Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available. Please note that `lxqt-panel-git` and `lxqt-config-git` should be updated first.
+For Arch based distros an [AUR Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available. Please note that `lxqt-panel-git` and `lxqt-config-git` should be updated first.
 
 ### Translations
 
