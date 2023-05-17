@@ -1,20 +1,21 @@
+
 # lxqt-menu-data
 
-Provides translations for menu categories and the menu files for LXQt and PCmanFm-qt.
+Freedesktop.org compliant menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt.
 
-Runtime dependency for [lxqt-panel](https://github.com/lxqt/lxqt-panel) and [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt).
+Runtime and build dependency for [lxqt-panel](https://github.com/lxqt/lxqt-panel), [lxqt-config](https://github.com/lxqt/lxqt-config) and [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt).
 
-Replacement for and partially based of [lxmenu-data](https://github.com/lxde/lxmenu-data) (LXDE).
+Replacement for and partially based on [lxmenu-data](https://github.com/lxde/lxmenu-data) (LXDE).
 
 ### Menu Files
 
-* `lxqt-applications.menu`: Default menu file for the "Main Menu plugin" in lxqt-panel and "Applications" in PcManFm-qt.
+* `lxqt-applications.menu`: Default menu file for the "Main Menu" plugin in lxqt-panel and "Applications" in PCmanFM-qt.
 
 * `lxqt-applications-fm.menu`:
-  * Application chooser menu in PCmanFm-qt (right click menu "Open with → Other applications")
-  * Applications menu in PcManFm-qt if installed outside of LXQt.
-
-* `lxqt-applications-simple.menu` and `lxqt-applications-compact.menu`:  Alternative menus for the "Main Menu plugin" in `lxqt-panel`.
+  * Application chooser menu in PCManFM-Qt (right click menu "Open with → Other applications")
+  * Applications menu in PCManFM-Qt if installed outside of LXQt.
+  
+* `lxqt-applications-simple.menu` and `lxqt-applications-compact.menu`:  Alternative menus for the "Main Menu" plugin in `lxqt-panel`.
 
 * `lxqt-config.menu` : Used in "LXQt Configuration Center".
 
@@ -32,16 +33,21 @@ as usual.
 
 ### Packages
 
+Packages will be available after the next release.
+
+For Arch based distros an [AUR Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available. Please note that `lxqt-panel-git` and `lxqt-config-git` should be updated first.
 
 ### Translations
 
-Some of the categories can be translated in [LXQt Weblate](link), for the others a PR is needed.
+Some of the categories used in both menus and "Configuration Center" can be translated in [LXQt Weblate](https://translate.lxqt-project.org/projects/lxqt-configuration/), for all others a PR is needed at the moment.
 
-#### Menus:
 
 * `lxqt-settings.directory` "LXQt Settings"
 * `lxqt-leave.directory` "Leave"
-
-#### Configuration Center:
 * `lxqt-settings-system.directory` "System Settings"
-* `lxqt-settings-other.directory` "Other Applications"
+* `lxqt-settings-other.directory` "Other Settings"
+
+
+<a href="https://translate.lxqt-project.org/projects/lxqt-configuration/">
+<img src="https://translate.lxqt-project.org/widgets/lxqt-configuration/-/lxqt-settings-category-name-in-menus/multi-auto.svg" alt="Translation status" />
+</a>
