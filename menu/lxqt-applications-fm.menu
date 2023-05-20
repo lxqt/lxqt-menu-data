@@ -54,16 +54,17 @@
 		</Include>
 	</Menu> <!-- End Development Tools -->
 
-	<!-- Education -->
+	<!-- Education & Science -->
 	<Menu>
-		<Name>Education</Name>
-		<Directory>lxqt-education.directory</Directory>
+		<Name>Education &amp; Science</Name>
+		<Directory>lxqt-education-science.directory</Directory>
 		<Include>
-			<And>
+			<Or>
 				<Category>Education</Category>
-			</And>
+				<Category>Science</Category>
+			</Or>
 		</Include>
-	</Menu> <!-- End Education -->
+	</Menu> <!-- End Education & Science -->
 
 	<!-- Games -->
 	<Menu>
