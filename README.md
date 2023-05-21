@@ -46,6 +46,7 @@ Some of the categories used in both menus and "Configuration Center" can be tran
 * `lxqt-leave.directory` "Leave"
 * `lxqt-settings-system.directory` "System Settings"
 * `lxqt-settings-other.directory` "Other Settings"
+* `lxqt-education-science.directory` "Education & Science"
 
 
 <a href="https://translate.lxqt-project.org/projects/lxqt-configuration/">
