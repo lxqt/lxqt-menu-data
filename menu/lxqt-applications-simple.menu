@@ -168,28 +168,18 @@
 		</Include>
 		</Menu> <!-- End Other -->
 
-	<!-- Settings -->
+	<!-- Include all settings for the search, but category is not displayed -->
 	<Menu>
-		<Name>DesktopSettings</Name>
-		<Directory>lxqt-settings.directory</Directory>
-		<Include>
-			<Or>
+			<Name>LXQtSettings</Name>
+			<Directory>lxqt-settings.directory</Directory>
+			<Include>
+				<Category>LXQt</Category>
 				<Category>Settings</Category>
 				<Category>PackageManager</Category>
-			</Or>
-		</Include>
-		<Exclude>
-			<Or>
-				<Filename>lxqt-config.desktop</Filename>
+				<!-- Include some optional components here -->
 				<Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
-				<Category>LXQt</Category>
-			</Or>
-		</Exclude>
-		<Layout>
-			<Merge type="menus"/>
-			<Merge type="files"/>
-		</Layout>
-	</Menu> <!-- End Settings -->
+			</Include>
+		</Menu>
 
 	<!-- Leave -->
 	<Menu>
