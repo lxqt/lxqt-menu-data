@@ -178,6 +178,7 @@
 				<Category>PackageManager</Category>
 				<!-- Include some optional components here -->
 				<Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
+				<Filename>lxqt-about.desktop</Filename>
 			</Include>
 		</Menu>
 
