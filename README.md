@@ -33,9 +33,7 @@ as usual.
 
 ### Packages
 
-Packages will be available after the next release.
-
-For Arch based distros an [AUR Package](https://aur.archlinux.org/packages/lxqt-menu-data-git) is available. Please note that `lxqt-panel-git` and `lxqt-config-git` should be updated first.
+Official packages are provided by all major Linux distributions like Arch Linux, Debian (trixie), Fedora and openSUSE. Just use your package manager to search for string `lxqt-menu-data`.
 
 ### Translations
 
