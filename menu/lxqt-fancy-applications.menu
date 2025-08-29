@@ -181,7 +181,7 @@
 			<Merge type="menus"/>
 			<Merge type="files"/>
 		</Layout>
-	</Menu> <!-- End LXQt settings -->
+	</Menu>  <!-- End LXQt Settings -->
 
 	<!-- Other Settings -->
 	<Menu>
@@ -213,6 +213,7 @@
 			<And>
 				<Category>X-Leave</Category>
 			</And>
+			<Filename>lxqt-lockscreen.desktop</Filename>
 		</Include>
 		<Exclude>
 			<Or>
@@ -220,14 +221,6 @@
 			</Or>
 		</Exclude>
 	</Menu>	 <!-- End Leave -->
-
-	<!-- Screensaver -->
-	<Menu>
-		<Name>Screensaver</Name>
-		<Include>
-		<Filename>lxqt-lockscreen.desktop</Filename>
-		</Include>
-	</Menu> <!-- End Screensaver -->
 
 	<Layout>
 		<Menuname show_empty="false" inline="true">LXQt-About</Menuname>
