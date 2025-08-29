@@ -18,6 +18,7 @@ install(FILES
 install(FILES
     lxqt-applications.menu
     lxqt-applications-compact.menu
+    lxqt-applications-fancy.menu
     lxqt-applications-fm.menu
     lxqt-config.menu
     DESTINATION "${LXQT_ETC_XDG_DIR}/menus"
