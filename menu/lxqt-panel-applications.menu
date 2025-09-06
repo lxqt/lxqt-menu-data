@@ -175,9 +175,12 @@
 			<!-- Include some optional components here -->
 			<Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
 		</Include>
+		<Exclude>
+			<Or>
+				<Filename>lxqt-config.desktop</Filename>
+			</Or>
+		</Exclude>
 		<Layout>
-			<Filename>lxqt-config.desktop</Filename>
-			<Separator/>
 			<Merge type="menus"/>
 			<Merge type="files"/>
 		</Layout>
