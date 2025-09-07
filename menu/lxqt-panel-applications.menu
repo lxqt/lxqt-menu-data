@@ -158,30 +158,34 @@
 				<Not><Category>Screensaver</Category></Not>
 			</And>
 		</Include>
-		</Menu> <!-- End Other -->
+	</Menu> <!-- End Other -->
 
-	<!-- All settings -->
+	<!-- LXQt settings -->
 	<Menu>
-			<Name>LXQtSettings</Name>
-			<Directory>lxqt-settings.directory</Directory>
-			<Include>
-				<And>
-					<Category>LXQt</Category>
-					<Or>
-						<Category>Settings</Category>
-						<Category>PackageManager</Category>
-					</Or>
-				</And>
-				<!-- Include some optional components here -->
-				<Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
-			</Include>
-			<Layout>
+		<Name>LXQtSettings</Name>
+		<Directory>lxqt-settings.directory</Directory>
+		<Include>
+			<And>
+				<Category>LXQt</Category>
+				<Or>
+					<Category>Settings</Category>
+					<Category>PackageManager</Category>
+				</Or>
+			</And>
+			<!-- Include some optional components here -->
+			<Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Or>
 				<Filename>lxqt-config.desktop</Filename>
-				<Separator/>
-				<Merge type="menus"/>
-				<Merge type="files"/>
-			</Layout>
-		</Menu>
+			</Or>
+		</Exclude>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>  <!-- End LXQt Settings -->
+
 	<!-- Other Settings -->
 	<Menu>
 		<Name>DesktopSettings</Name>
@@ -230,8 +234,7 @@
 		<Menuname>LXQtSettings</Menuname>
 		<Menuname>DesktopSettings</Menuname>
 		<Separator/>
-		<Menuname show_empty="false" inline="true">X-Leave</Menuname>
-		<Menuname show_empty="false" inline="true">Screensaver</Menuname>
+		<Menuname show_empty="false">X-Leave</Menuname>
 	</Layout>
 
 </Menu> <!-- End Applications -->
