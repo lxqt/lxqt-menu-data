@@ -238,7 +238,7 @@
 		<Menuname>LXQtSettings</Menuname>
 		<Menuname>DesktopSettings</Menuname>
 		<Separator/>
-		<Menuname show_empty="false" inline="true">X-Leave</Menuname>
+		<Menuname show_empty="false">X-Leave</Menuname>
 		<Menuname show_empty="false" inline="true">Screensaver</Menuname>
 	</Layout>
 
