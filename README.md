@@ -11,6 +11,8 @@ Replacement for and partially based on [lxmenu-data](https://github.com/lxde/lxm
 
 * `lxqt-applications.menu`: Default menu file for the "Main Menu" plugin in lxqt-panel and "Applications" in PCmanFM-qt.
 
+* `lxqt-panel-applications.menu`: Default menu file for the "Fancy Menu" plugin in lxqt-panel.
+
 * `lxqt-applications-fm.menu`:
   * Application chooser menu in PCManFM-Qt (right click menu "Open with → Other applications")
   * Applications menu in PCManFM-Qt if installed outside of LXQt.
